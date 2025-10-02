@@ -1,0 +1,1091 @@
+0, 51, CPU burst
+51, 1, switch to kernel mode
+52, 30, context saved
+82, 1, find vector 14 in memory position 0x001C
+83, 1, load address 0X0165 into the PC
+84, 40, call device driver
+124, 40, call device driver
+164, 40, call device driver
+204, 40, call device driver
+244, 40, call device driver
+284, 40, call device driver
+324, 40, call device driver
+364, 40, call device driver
+404, 40, call device driver
+444, 40, call device driver
+484, 40, call device driver
+524, 16, call device driver
+540, 1, IRET
+541, 39, CPU burst
+580, 1, switch to kernel mode
+581, 30, context saved
+611, 1, find vector 14 in memory position 0x001C
+612, 1, load address 0X0165 into the PC
+613, 40, Store information in memory
+653, 40, Store information in memory
+693, 40, Store information in memory
+733, 40, Store information in memory
+773, 40, Store information in memory
+813, 40, Store information in memory
+853, 40, Store information in memory
+893, 40, Store information in memory
+933, 40, Store information in memory
+973, 40, Store information in memory
+1013, 40, Store information in memory
+1053, 16, Store information in memory
+1069, 1, IRET
+1070, 72, CPU burst
+1142, 1, switch to kernel mode
+1143, 30, context saved
+1173, 1, find vector 19 in memory position 0x0026
+1174, 1, load address 0X0765 into the PC
+1175, 40, call device driver
+1215, 40, call device driver
+1255, 40, call device driver
+1295, 40, call device driver
+1335, 40, call device driver
+1375, 40, call device driver
+1415, 40, call device driver
+1455, 40, call device driver
+1495, 40, call device driver
+1535, 40, call device driver
+1575, 40, call device driver
+1615, 40, call device driver
+1655, 40, call device driver
+1695, 40, call device driver
+1735, 40, call device driver
+1775, 40, call device driver
+1815, 12, call device driver
+1827, 1, IRET
+1828, 28, CPU burst
+1856, 1, switch to kernel mode
+1857, 30, context saved
+1887, 1, find vector 19 in memory position 0x0026
+1888, 1, load address 0X0765 into the PC
+1889, 40, Store information in memory
+1929, 40, Store information in memory
+1969, 40, Store information in memory
+2009, 40, Store information in memory
+2049, 40, Store information in memory
+2089, 40, Store information in memory
+2129, 40, Store information in memory
+2169, 40, Store information in memory
+2209, 40, Store information in memory
+2249, 40, Store information in memory
+2289, 40, Store information in memory
+2329, 40, Store information in memory
+2369, 40, Store information in memory
+2409, 40, Store information in memory
+2449, 40, Store information in memory
+2489, 40, Store information in memory
+2529, 12, Store information in memory
+2541, 1, IRET
+2542, 32, CPU burst
+2574, 1, switch to kernel mode
+2575, 30, context saved
+2605, 1, find vector 7 in memory position 0x000E
+2606, 1, load address 0X00BD into the PC
+2607, 40, call device driver
+2647, 40, call device driver
+2687, 40, call device driver
+2727, 32, call device driver
+2759, 1, IRET
+2760, 25, CPU burst
+2785, 1, switch to kernel mode
+2786, 30, context saved
+2816, 1, find vector 7 in memory position 0x000E
+2817, 1, load address 0X00BD into the PC
+2818, 40, Store information in memory
+2858, 40, Store information in memory
+2898, 40, Store information in memory
+2938, 32, Store information in memory
+2970, 1, IRET
+2971, 11, CPU burst
+2982, 1, switch to kernel mode
+2983, 30, context saved
+3013, 1, find vector 16 in memory position 0x0020
+3014, 1, load address 0X02DF into the PC
+3015, 40, call device driver
+3055, 40, call device driver
+3095, 40, call device driver
+3135, 40, call device driver
+3175, 40, call device driver
+3215, 40, call device driver
+3255, 40, call device driver
+3295, 40, call device driver
+3335, 40, call device driver
+3375, 40, call device driver
+3415, 40, call device driver
+3455, 40, call device driver
+3495, 40, call device driver
+3535, 40, call device driver
+3575, 40, call device driver
+3615, 40, call device driver
+3655, 40, call device driver
+3695, 40, call device driver
+3735, 40, call device driver
+3775, 40, call device driver
+3815, 40, call device driver
+3855, 40, call device driver
+3895, 40, call device driver
+3935, 36, call device driver
+3971, 1, IRET
+3972, 54, CPU burst
+4026, 1, switch to kernel mode
+4027, 30, context saved
+4057, 1, find vector 16 in memory position 0x0020
+4058, 1, load address 0X02DF into the PC
+4059, 40, Store information in memory
+4099, 40, Store information in memory
+4139, 40, Store information in memory
+4179, 40, Store information in memory
+4219, 40, Store information in memory
+4259, 40, Store information in memory
+4299, 40, Store information in memory
+4339, 40, Store information in memory
+4379, 40, Store information in memory
+4419, 40, Store information in memory
+4459, 40, Store information in memory
+4499, 40, Store information in memory
+4539, 40, Store information in memory
+4579, 40, Store information in memory
+4619, 40, Store information in memory
+4659, 40, Store information in memory
+4699, 40, Store information in memory
+4739, 40, Store information in memory
+4779, 40, Store information in memory
+4819, 40, Store information in memory
+4859, 40, Store information in memory
+4899, 40, Store information in memory
+4939, 40, Store information in memory
+4979, 36, Store information in memory
+5015, 1, IRET
+5016, 96, CPU burst
+5112, 1, switch to kernel mode
+5113, 30, context saved
+5143, 1, find vector 8 in memory position 0x0010
+5144, 1, load address 0X06EF into the PC
+5145, 40, call device driver
+5185, 40, call device driver
+5225, 40, call device driver
+5265, 40, call device driver
+5305, 40, call device driver
+5345, 40, call device driver
+5385, 40, call device driver
+5425, 40, call device driver
+5465, 40, call device driver
+5505, 40, call device driver
+5545, 40, call device driver
+5585, 40, call device driver
+5625, 40, call device driver
+5665, 40, call device driver
+5705, 40, call device driver
+5745, 40, call device driver
+5785, 40, call device driver
+5825, 40, call device driver
+5865, 40, call device driver
+5905, 40, call device driver
+5945, 40, call device driver
+5985, 40, call device driver
+6025, 40, call device driver
+6065, 40, call device driver
+6105, 40, call device driver
+6145, 1, IRET
+6146, 54, CPU burst
+6200, 1, switch to kernel mode
+6201, 30, context saved
+6231, 1, find vector 8 in memory position 0x0010
+6232, 1, load address 0X06EF into the PC
+6233, 40, Store information in memory
+6273, 40, Store information in memory
+6313, 40, Store information in memory
+6353, 40, Store information in memory
+6393, 40, Store information in memory
+6433, 40, Store information in memory
+6473, 40, Store information in memory
+6513, 40, Store information in memory
+6553, 40, Store information in memory
+6593, 40, Store information in memory
+6633, 40, Store information in memory
+6673, 40, Store information in memory
+6713, 40, Store information in memory
+6753, 40, Store information in memory
+6793, 40, Store information in memory
+6833, 40, Store information in memory
+6873, 40, Store information in memory
+6913, 40, Store information in memory
+6953, 40, Store information in memory
+6993, 40, Store information in memory
+7033, 40, Store information in memory
+7073, 40, Store information in memory
+7113, 40, Store information in memory
+7153, 40, Store information in memory
+7193, 40, Store information in memory
+7233, 1, IRET
+7234, 77, CPU burst
+7311, 1, switch to kernel mode
+7312, 30, context saved
+7342, 1, find vector 11 in memory position 0x0016
+7343, 1, load address 0X01F8 into the PC
+7344, 40, call device driver
+7384, 40, call device driver
+7424, 40, call device driver
+7464, 40, call device driver
+7504, 40, call device driver
+7544, 40, call device driver
+7584, 40, call device driver
+7624, 40, call device driver
+7664, 40, call device driver
+7704, 40, call device driver
+7744, 40, call device driver
+7784, 40, call device driver
+7824, 40, call device driver
+7864, 3, call device driver
+7867, 1, IRET
+7868, 33, CPU burst
+7901, 1, switch to kernel mode
+7902, 30, context saved
+7932, 1, find vector 11 in memory position 0x0016
+7933, 1, load address 0X01F8 into the PC
+7934, 40, Store information in memory
+7974, 40, Store information in memory
+8014, 40, Store information in memory
+8054, 40, Store information in memory
+8094, 40, Store information in memory
+8134, 40, Store information in memory
+8174, 40, Store information in memory
+8214, 40, Store information in memory
+8254, 40, Store information in memory
+8294, 40, Store information in memory
+8334, 40, Store information in memory
+8374, 40, Store information in memory
+8414, 40, Store information in memory
+8454, 3, Store information in memory
+8457, 1, IRET
+8458, 60, CPU burst
+8518, 1, switch to kernel mode
+8519, 30, context saved
+8549, 1, find vector 16 in memory position 0x0020
+8550, 1, load address 0X02DF into the PC
+8551, 40, call device driver
+8591, 40, call device driver
+8631, 40, call device driver
+8671, 40, call device driver
+8711, 40, call device driver
+8751, 40, call device driver
+8791, 40, call device driver
+8831, 40, call device driver
+8871, 40, call device driver
+8911, 40, call device driver
+8951, 40, call device driver
+8991, 40, call device driver
+9031, 40, call device driver
+9071, 40, call device driver
+9111, 40, call device driver
+9151, 40, call device driver
+9191, 40, call device driver
+9231, 40, call device driver
+9271, 40, call device driver
+9311, 40, call device driver
+9351, 40, call device driver
+9391, 40, call device driver
+9431, 40, call device driver
+9471, 36, call device driver
+9507, 1, IRET
+9508, 21, CPU burst
+9529, 1, switch to kernel mode
+9530, 30, context saved
+9560, 1, find vector 16 in memory position 0x0020
+9561, 1, load address 0X02DF into the PC
+9562, 40, Store information in memory
+9602, 40, Store information in memory
+9642, 40, Store information in memory
+9682, 40, Store information in memory
+9722, 40, Store information in memory
+9762, 40, Store information in memory
+9802, 40, Store information in memory
+9842, 40, Store information in memory
+9882, 40, Store information in memory
+9922, 40, Store information in memory
+9962, 40, Store information in memory
+10002, 40, Store information in memory
+10042, 40, Store information in memory
+10082, 40, Store information in memory
+10122, 40, Store information in memory
+10162, 40, Store information in memory
+10202, 40, Store information in memory
+10242, 40, Store information in memory
+10282, 40, Store information in memory
+10322, 40, Store information in memory
+10362, 40, Store information in memory
+10402, 40, Store information in memory
+10442, 40, Store information in memory
+10482, 36, Store information in memory
+10518, 1, IRET
+10519, 19, CPU burst
+10538, 1, switch to kernel mode
+10539, 30, context saved
+10569, 1, find vector 2 in memory position 0x0004
+10570, 1, load address 0X0695 into the PC
+10571, 40, call device driver
+10611, 40, call device driver
+10651, 40, call device driver
+10691, 30, call device driver
+10721, 1, IRET
+10722, 26, CPU burst
+10748, 1, switch to kernel mode
+10749, 30, context saved
+10779, 1, find vector 2 in memory position 0x0004
+10780, 1, load address 0X0695 into the PC
+10781, 40, Store information in memory
+10821, 40, Store information in memory
+10861, 40, Store information in memory
+10901, 30, Store information in memory
+10931, 1, IRET
+10932, 38, CPU burst
+10970, 1, switch to kernel mode
+10971, 30, context saved
+11001, 1, find vector 16 in memory position 0x0020
+11002, 1, load address 0X02DF into the PC
+11003, 40, call device driver
+11043, 40, call device driver
+11083, 40, call device driver
+11123, 40, call device driver
+11163, 40, call device driver
+11203, 40, call device driver
+11243, 40, call device driver
+11283, 40, call device driver
+11323, 40, call device driver
+11363, 40, call device driver
+11403, 40, call device driver
+11443, 40, call device driver
+11483, 40, call device driver
+11523, 40, call device driver
+11563, 40, call device driver
+11603, 40, call device driver
+11643, 40, call device driver
+11683, 40, call device driver
+11723, 40, call device driver
+11763, 40, call device driver
+11803, 40, call device driver
+11843, 40, call device driver
+11883, 40, call device driver
+11923, 36, call device driver
+11959, 1, IRET
+11960, 28, CPU burst
+11988, 1, switch to kernel mode
+11989, 30, context saved
+12019, 1, find vector 16 in memory position 0x0020
+12020, 1, load address 0X02DF into the PC
+12021, 40, Store information in memory
+12061, 40, Store information in memory
+12101, 40, Store information in memory
+12141, 40, Store information in memory
+12181, 40, Store information in memory
+12221, 40, Store information in memory
+12261, 40, Store information in memory
+12301, 40, Store information in memory
+12341, 40, Store information in memory
+12381, 40, Store information in memory
+12421, 40, Store information in memory
+12461, 40, Store information in memory
+12501, 40, Store information in memory
+12541, 40, Store information in memory
+12581, 40, Store information in memory
+12621, 40, Store information in memory
+12661, 40, Store information in memory
+12701, 40, Store information in memory
+12741, 40, Store information in memory
+12781, 40, Store information in memory
+12821, 40, Store information in memory
+12861, 40, Store information in memory
+12901, 40, Store information in memory
+12941, 36, Store information in memory
+12977, 1, IRET
+12978, 65, CPU burst
+13043, 1, switch to kernel mode
+13044, 30, context saved
+13074, 1, find vector 16 in memory position 0x0020
+13075, 1, load address 0X02DF into the PC
+13076, 40, call device driver
+13116, 40, call device driver
+13156, 40, call device driver
+13196, 40, call device driver
+13236, 40, call device driver
+13276, 40, call device driver
+13316, 40, call device driver
+13356, 40, call device driver
+13396, 40, call device driver
+13436, 40, call device driver
+13476, 40, call device driver
+13516, 40, call device driver
+13556, 40, call device driver
+13596, 40, call device driver
+13636, 40, call device driver
+13676, 40, call device driver
+13716, 40, call device driver
+13756, 40, call device driver
+13796, 40, call device driver
+13836, 40, call device driver
+13876, 40, call device driver
+13916, 40, call device driver
+13956, 40, call device driver
+13996, 36, call device driver
+14032, 1, IRET
+14033, 88, CPU burst
+14121, 1, switch to kernel mode
+14122, 30, context saved
+14152, 1, find vector 16 in memory position 0x0020
+14153, 1, load address 0X02DF into the PC
+14154, 40, Store information in memory
+14194, 40, Store information in memory
+14234, 40, Store information in memory
+14274, 40, Store information in memory
+14314, 40, Store information in memory
+14354, 40, Store information in memory
+14394, 40, Store information in memory
+14434, 40, Store information in memory
+14474, 40, Store information in memory
+14514, 40, Store information in memory
+14554, 40, Store information in memory
+14594, 40, Store information in memory
+14634, 40, Store information in memory
+14674, 40, Store information in memory
+14714, 40, Store information in memory
+14754, 40, Store information in memory
+14794, 40, Store information in memory
+14834, 40, Store information in memory
+14874, 40, Store information in memory
+14914, 40, Store information in memory
+14954, 40, Store information in memory
+14994, 40, Store information in memory
+15034, 40, Store information in memory
+15074, 36, Store information in memory
+15110, 1, IRET
+15111, 100, CPU burst
+15211, 1, switch to kernel mode
+15212, 30, context saved
+15242, 1, find vector 17 in memory position 0x0022
+15243, 1, load address 0X05B3 into the PC
+15244, 40, call device driver
+15284, 40, call device driver
+15324, 40, call device driver
+15364, 40, call device driver
+15404, 40, call device driver
+15444, 35, call device driver
+15479, 1, IRET
+15480, 28, CPU burst
+15508, 1, switch to kernel mode
+15509, 30, context saved
+15539, 1, find vector 17 in memory position 0x0022
+15540, 1, load address 0X05B3 into the PC
+15541, 40, Store information in memory
+15581, 40, Store information in memory
+15621, 40, Store information in memory
+15661, 40, Store information in memory
+15701, 40, Store information in memory
+15741, 35, Store information in memory
+15776, 1, IRET
+15777, 25, CPU burst
+15802, 1, switch to kernel mode
+15803, 30, context saved
+15833, 1, find vector 1 in memory position 0x0002
+15834, 1, load address 0X029C into the PC
+15835, 40, call device driver
+15875, 40, call device driver
+15915, 20, call device driver
+15935, 1, IRET
+15936, 21, CPU burst
+15957, 1, switch to kernel mode
+15958, 30, context saved
+15988, 1, find vector 1 in memory position 0x0002
+15989, 1, load address 0X029C into the PC
+15990, 40, Store information in memory
+16030, 40, Store information in memory
+16070, 20, Store information in memory
+16090, 1, IRET
+16091, 25, CPU burst
+16116, 1, switch to kernel mode
+16117, 30, context saved
+16147, 1, find vector 19 in memory position 0x0026
+16148, 1, load address 0X0765 into the PC
+16149, 40, call device driver
+16189, 40, call device driver
+16229, 40, call device driver
+16269, 40, call device driver
+16309, 40, call device driver
+16349, 40, call device driver
+16389, 40, call device driver
+16429, 40, call device driver
+16469, 40, call device driver
+16509, 40, call device driver
+16549, 40, call device driver
+16589, 40, call device driver
+16629, 40, call device driver
+16669, 40, call device driver
+16709, 40, call device driver
+16749, 40, call device driver
+16789, 12, call device driver
+16801, 1, IRET
+16802, 34, CPU burst
+16836, 1, switch to kernel mode
+16837, 30, context saved
+16867, 1, find vector 19 in memory position 0x0026
+16868, 1, load address 0X0765 into the PC
+16869, 40, Store information in memory
+16909, 40, Store information in memory
+16949, 40, Store information in memory
+16989, 40, Store information in memory
+17029, 40, Store information in memory
+17069, 40, Store information in memory
+17109, 40, Store information in memory
+17149, 40, Store information in memory
+17189, 40, Store information in memory
+17229, 40, Store information in memory
+17269, 40, Store information in memory
+17309, 40, Store information in memory
+17349, 40, Store information in memory
+17389, 40, Store information in memory
+17429, 40, Store information in memory
+17469, 40, Store information in memory
+17509, 12, Store information in memory
+17521, 1, IRET
+17522, 34, CPU burst
+17556, 1, switch to kernel mode
+17557, 30, context saved
+17587, 1, find vector 8 in memory position 0x0010
+17588, 1, load address 0X06EF into the PC
+17589, 40, call device driver
+17629, 40, call device driver
+17669, 40, call device driver
+17709, 40, call device driver
+17749, 40, call device driver
+17789, 40, call device driver
+17829, 40, call device driver
+17869, 40, call device driver
+17909, 40, call device driver
+17949, 40, call device driver
+17989, 40, call device driver
+18029, 40, call device driver
+18069, 40, call device driver
+18109, 40, call device driver
+18149, 40, call device driver
+18189, 40, call device driver
+18229, 40, call device driver
+18269, 40, call device driver
+18309, 40, call device driver
+18349, 40, call device driver
+18389, 40, call device driver
+18429, 40, call device driver
+18469, 40, call device driver
+18509, 40, call device driver
+18549, 40, call device driver
+18589, 1, IRET
+18590, 59, CPU burst
+18649, 1, switch to kernel mode
+18650, 30, context saved
+18680, 1, find vector 8 in memory position 0x0010
+18681, 1, load address 0X06EF into the PC
+18682, 40, Store information in memory
+18722, 40, Store information in memory
+18762, 40, Store information in memory
+18802, 40, Store information in memory
+18842, 40, Store information in memory
+18882, 40, Store information in memory
+18922, 40, Store information in memory
+18962, 40, Store information in memory
+19002, 40, Store information in memory
+19042, 40, Store information in memory
+19082, 40, Store information in memory
+19122, 40, Store information in memory
+19162, 40, Store information in memory
+19202, 40, Store information in memory
+19242, 40, Store information in memory
+19282, 40, Store information in memory
+19322, 40, Store information in memory
+19362, 40, Store information in memory
+19402, 40, Store information in memory
+19442, 40, Store information in memory
+19482, 40, Store information in memory
+19522, 40, Store information in memory
+19562, 40, Store information in memory
+19602, 40, Store information in memory
+19642, 40, Store information in memory
+19682, 1, IRET
+19683, 44, CPU burst
+19727, 1, switch to kernel mode
+19728, 30, context saved
+19758, 1, find vector 15 in memory position 0x001E
+19759, 1, load address 0X0584 into the PC
+19760, 40, call device driver
+19800, 28, call device driver
+19828, 1, IRET
+19829, 51, CPU burst
+19880, 1, switch to kernel mode
+19881, 30, context saved
+19911, 1, find vector 15 in memory position 0x001E
+19912, 1, load address 0X0584 into the PC
+19913, 40, Store information in memory
+19953, 28, Store information in memory
+19981, 1, IRET
+19982, 87, CPU burst
+20069, 1, switch to kernel mode
+20070, 30, context saved
+20100, 1, find vector 11 in memory position 0x0016
+20101, 1, load address 0X01F8 into the PC
+20102, 40, call device driver
+20142, 40, call device driver
+20182, 40, call device driver
+20222, 40, call device driver
+20262, 40, call device driver
+20302, 40, call device driver
+20342, 40, call device driver
+20382, 40, call device driver
+20422, 40, call device driver
+20462, 40, call device driver
+20502, 40, call device driver
+20542, 40, call device driver
+20582, 40, call device driver
+20622, 3, call device driver
+20625, 1, IRET
+20626, 65, CPU burst
+20691, 1, switch to kernel mode
+20692, 30, context saved
+20722, 1, find vector 11 in memory position 0x0016
+20723, 1, load address 0X01F8 into the PC
+20724, 40, Store information in memory
+20764, 40, Store information in memory
+20804, 40, Store information in memory
+20844, 40, Store information in memory
+20884, 40, Store information in memory
+20924, 40, Store information in memory
+20964, 40, Store information in memory
+21004, 40, Store information in memory
+21044, 40, Store information in memory
+21084, 40, Store information in memory
+21124, 40, Store information in memory
+21164, 40, Store information in memory
+21204, 40, Store information in memory
+21244, 3, Store information in memory
+21247, 1, IRET
+21248, 48, CPU burst
+21296, 1, switch to kernel mode
+21297, 30, context saved
+21327, 1, find vector 16 in memory position 0x0020
+21328, 1, load address 0X02DF into the PC
+21329, 40, call device driver
+21369, 40, call device driver
+21409, 40, call device driver
+21449, 40, call device driver
+21489, 40, call device driver
+21529, 40, call device driver
+21569, 40, call device driver
+21609, 40, call device driver
+21649, 40, call device driver
+21689, 40, call device driver
+21729, 40, call device driver
+21769, 40, call device driver
+21809, 40, call device driver
+21849, 40, call device driver
+21889, 40, call device driver
+21929, 40, call device driver
+21969, 40, call device driver
+22009, 40, call device driver
+22049, 40, call device driver
+22089, 40, call device driver
+22129, 40, call device driver
+22169, 40, call device driver
+22209, 40, call device driver
+22249, 36, call device driver
+22285, 1, IRET
+22286, 51, CPU burst
+22337, 1, switch to kernel mode
+22338, 30, context saved
+22368, 1, find vector 16 in memory position 0x0020
+22369, 1, load address 0X02DF into the PC
+22370, 40, Store information in memory
+22410, 40, Store information in memory
+22450, 40, Store information in memory
+22490, 40, Store information in memory
+22530, 40, Store information in memory
+22570, 40, Store information in memory
+22610, 40, Store information in memory
+22650, 40, Store information in memory
+22690, 40, Store information in memory
+22730, 40, Store information in memory
+22770, 40, Store information in memory
+22810, 40, Store information in memory
+22850, 40, Store information in memory
+22890, 40, Store information in memory
+22930, 40, Store information in memory
+22970, 40, Store information in memory
+23010, 40, Store information in memory
+23050, 40, Store information in memory
+23090, 40, Store information in memory
+23130, 40, Store information in memory
+23170, 40, Store information in memory
+23210, 40, Store information in memory
+23250, 40, Store information in memory
+23290, 36, Store information in memory
+23326, 1, IRET
+23327, 37, CPU burst
+23364, 1, switch to kernel mode
+23365, 30, context saved
+23395, 1, find vector 1 in memory position 0x0002
+23396, 1, load address 0X029C into the PC
+23397, 40, call device driver
+23437, 40, call device driver
+23477, 20, call device driver
+23497, 1, IRET
+23498, 18, CPU burst
+23516, 1, switch to kernel mode
+23517, 30, context saved
+23547, 1, find vector 1 in memory position 0x0002
+23548, 1, load address 0X029C into the PC
+23549, 40, Store information in memory
+23589, 40, Store information in memory
+23629, 20, Store information in memory
+23649, 1, IRET
+23650, 11, CPU burst
+23661, 1, switch to kernel mode
+23662, 30, context saved
+23692, 1, find vector 2 in memory position 0x0004
+23693, 1, load address 0X0695 into the PC
+23694, 40, call device driver
+23734, 40, call device driver
+23774, 40, call device driver
+23814, 30, call device driver
+23844, 1, IRET
+23845, 46, CPU burst
+23891, 1, switch to kernel mode
+23892, 30, context saved
+23922, 1, find vector 2 in memory position 0x0004
+23923, 1, load address 0X0695 into the PC
+23924, 40, Store information in memory
+23964, 40, Store information in memory
+24004, 40, Store information in memory
+24044, 30, Store information in memory
+24074, 1, IRET
+24075, 33, CPU burst
+24108, 1, switch to kernel mode
+24109, 30, context saved
+24139, 1, find vector 12 in memory position 0x0018
+24140, 1, load address 0X03B9 into the PC
+24141, 40, call device driver
+24181, 40, call device driver
+24221, 40, call device driver
+24261, 25, call device driver
+24286, 1, IRET
+24287, 75, CPU burst
+24362, 1, switch to kernel mode
+24363, 30, context saved
+24393, 1, find vector 12 in memory position 0x0018
+24394, 1, load address 0X03B9 into the PC
+24395, 40, Store information in memory
+24435, 40, Store information in memory
+24475, 40, Store information in memory
+24515, 25, Store information in memory
+24540, 1, IRET
+24541, 88, CPU burst
+24629, 1, switch to kernel mode
+24630, 30, context saved
+24660, 1, find vector 18 in memory position 0x0024
+24661, 1, load address 0X060A into the PC
+24662, 40, call device driver
+24702, 40, call device driver
+24742, 40, call device driver
+24782, 3, call device driver
+24785, 1, IRET
+24786, 29, CPU burst
+24815, 1, switch to kernel mode
+24816, 30, context saved
+24846, 1, find vector 18 in memory position 0x0024
+24847, 1, load address 0X060A into the PC
+24848, 40, Store information in memory
+24888, 40, Store information in memory
+24928, 40, Store information in memory
+24968, 3, Store information in memory
+24971, 1, IRET
+24972, 28, CPU burst
+25000, 1, switch to kernel mode
+25001, 30, context saved
+25031, 1, find vector 1 in memory position 0x0002
+25032, 1, load address 0X029C into the PC
+25033, 40, call device driver
+25073, 40, call device driver
+25113, 20, call device driver
+25133, 1, IRET
+25134, 69, CPU burst
+25203, 1, switch to kernel mode
+25204, 30, context saved
+25234, 1, find vector 1 in memory position 0x0002
+25235, 1, load address 0X029C into the PC
+25236, 40, Store information in memory
+25276, 40, Store information in memory
+25316, 20, Store information in memory
+25336, 1, IRET
+25337, 48, CPU burst
+25385, 1, switch to kernel mode
+25386, 30, context saved
+25416, 1, find vector 4 in memory position 0x0008
+25417, 1, load address 0X0292 into the PC
+25418, 40, call device driver
+25458, 40, call device driver
+25498, 40, call device driver
+25538, 40, call device driver
+25578, 40, call device driver
+25618, 40, call device driver
+25658, 10, call device driver
+25668, 1, IRET
+25669, 36, CPU burst
+25705, 1, switch to kernel mode
+25706, 30, context saved
+25736, 1, find vector 4 in memory position 0x0008
+25737, 1, load address 0X0292 into the PC
+25738, 40, Store information in memory
+25778, 40, Store information in memory
+25818, 40, Store information in memory
+25858, 40, Store information in memory
+25898, 40, Store information in memory
+25938, 40, Store information in memory
+25978, 10, Store information in memory
+25988, 1, IRET
+25989, 99, CPU burst
+26088, 1, switch to kernel mode
+26089, 30, context saved
+26119, 1, find vector 18 in memory position 0x0024
+26120, 1, load address 0X060A into the PC
+26121, 40, call device driver
+26161, 40, call device driver
+26201, 40, call device driver
+26241, 3, call device driver
+26244, 1, IRET
+26245, 56, CPU burst
+26301, 1, switch to kernel mode
+26302, 30, context saved
+26332, 1, find vector 18 in memory position 0x0024
+26333, 1, load address 0X060A into the PC
+26334, 40, Store information in memory
+26374, 40, Store information in memory
+26414, 40, Store information in memory
+26454, 3, Store information in memory
+26457, 1, IRET
+26458, 61, CPU burst
+26519, 1, switch to kernel mode
+26520, 30, context saved
+26550, 1, find vector 16 in memory position 0x0020
+26551, 1, load address 0X02DF into the PC
+26552, 40, call device driver
+26592, 40, call device driver
+26632, 40, call device driver
+26672, 40, call device driver
+26712, 40, call device driver
+26752, 40, call device driver
+26792, 40, call device driver
+26832, 40, call device driver
+26872, 40, call device driver
+26912, 40, call device driver
+26952, 40, call device driver
+26992, 40, call device driver
+27032, 40, call device driver
+27072, 40, call device driver
+27112, 40, call device driver
+27152, 40, call device driver
+27192, 40, call device driver
+27232, 40, call device driver
+27272, 40, call device driver
+27312, 40, call device driver
+27352, 40, call device driver
+27392, 40, call device driver
+27432, 40, call device driver
+27472, 36, call device driver
+27508, 1, IRET
+27509, 35, CPU burst
+27544, 1, switch to kernel mode
+27545, 30, context saved
+27575, 1, find vector 16 in memory position 0x0020
+27576, 1, load address 0X02DF into the PC
+27577, 40, Store information in memory
+27617, 40, Store information in memory
+27657, 40, Store information in memory
+27697, 40, Store information in memory
+27737, 40, Store information in memory
+27777, 40, Store information in memory
+27817, 40, Store information in memory
+27857, 40, Store information in memory
+27897, 40, Store information in memory
+27937, 40, Store information in memory
+27977, 40, Store information in memory
+28017, 40, Store information in memory
+28057, 40, Store information in memory
+28097, 40, Store information in memory
+28137, 40, Store information in memory
+28177, 40, Store information in memory
+28217, 40, Store information in memory
+28257, 40, Store information in memory
+28297, 40, Store information in memory
+28337, 40, Store information in memory
+28377, 40, Store information in memory
+28417, 40, Store information in memory
+28457, 40, Store information in memory
+28497, 36, Store information in memory
+28533, 1, IRET
+28534, 54, CPU burst
+28588, 1, switch to kernel mode
+28589, 30, context saved
+28619, 1, find vector 10 in memory position 0x0014
+28620, 1, load address 0X07B0 into the PC
+28621, 40, call device driver
+28661, 40, call device driver
+28701, 40, call device driver
+28741, 40, call device driver
+28781, 40, call device driver
+28821, 40, call device driver
+28861, 40, call device driver
+28901, 40, call device driver
+28941, 40, call device driver
+28981, 40, call device driver
+29021, 40, call device driver
+29061, 40, call device driver
+29101, 40, call device driver
+29141, 40, call device driver
+29181, 4, call device driver
+29185, 1, IRET
+29186, 83, CPU burst
+29269, 1, switch to kernel mode
+29270, 30, context saved
+29300, 1, find vector 10 in memory position 0x0014
+29301, 1, load address 0X07B0 into the PC
+29302, 40, Store information in memory
+29342, 40, Store information in memory
+29382, 40, Store information in memory
+29422, 40, Store information in memory
+29462, 40, Store information in memory
+29502, 40, Store information in memory
+29542, 40, Store information in memory
+29582, 40, Store information in memory
+29622, 40, Store information in memory
+29662, 40, Store information in memory
+29702, 40, Store information in memory
+29742, 40, Store information in memory
+29782, 40, Store information in memory
+29822, 40, Store information in memory
+29862, 4, Store information in memory
+29866, 1, IRET
+29867, 51, CPU burst
+29918, 1, switch to kernel mode
+29919, 30, context saved
+29949, 1, find vector 11 in memory position 0x0016
+29950, 1, load address 0X01F8 into the PC
+29951, 40, call device driver
+29991, 40, call device driver
+30031, 40, call device driver
+30071, 40, call device driver
+30111, 40, call device driver
+30151, 40, call device driver
+30191, 40, call device driver
+30231, 40, call device driver
+30271, 40, call device driver
+30311, 40, call device driver
+30351, 40, call device driver
+30391, 40, call device driver
+30431, 40, call device driver
+30471, 3, call device driver
+30474, 1, IRET
+30475, 85, CPU burst
+30560, 1, switch to kernel mode
+30561, 30, context saved
+30591, 1, find vector 11 in memory position 0x0016
+30592, 1, load address 0X01F8 into the PC
+30593, 40, Store information in memory
+30633, 40, Store information in memory
+30673, 40, Store information in memory
+30713, 40, Store information in memory
+30753, 40, Store information in memory
+30793, 40, Store information in memory
+30833, 40, Store information in memory
+30873, 40, Store information in memory
+30913, 40, Store information in memory
+30953, 40, Store information in memory
+30993, 40, Store information in memory
+31033, 40, Store information in memory
+31073, 40, Store information in memory
+31113, 3, Store information in memory
+31116, 1, IRET
+31117, 48, CPU burst
+31165, 1, switch to kernel mode
+31166, 30, context saved
+31196, 1, find vector 6 in memory position 0x000C
+31197, 1, load address 0X0639 into the PC
+31198, 40, call device driver
+31238, 40, call device driver
+31278, 40, call device driver
+31318, 40, call device driver
+31358, 40, call device driver
+31398, 40, call device driver
+31438, 25, call device driver
+31463, 1, IRET
+31464, 58, CPU burst
+31522, 1, switch to kernel mode
+31523, 30, context saved
+31553, 1, find vector 6 in memory position 0x000C
+31554, 1, load address 0X0639 into the PC
+31555, 40, Store information in memory
+31595, 40, Store information in memory
+31635, 40, Store information in memory
+31675, 40, Store information in memory
+31715, 40, Store information in memory
+31755, 40, Store information in memory
+31795, 25, Store information in memory
+31820, 1, IRET
+31821, 21, CPU burst
+31842, 1, switch to kernel mode
+31843, 30, context saved
+31873, 1, find vector 5 in memory position 0x000A
+31874, 1, load address 0X048B into the PC
+31875, 40, call device driver
+31915, 40, call device driver
+31955, 40, call device driver
+31995, 40, call device driver
+32035, 40, call device driver
+32075, 11, call device driver
+32086, 1, IRET
+32087, 62, CPU burst
+32149, 1, switch to kernel mode
+32150, 30, context saved
+32180, 1, find vector 5 in memory position 0x000A
+32181, 1, load address 0X048B into the PC
+32182, 40, Store information in memory
+32222, 40, Store information in memory
+32262, 40, Store information in memory
+32302, 40, Store information in memory
+32342, 40, Store information in memory
+32382, 11, Store information in memory
+32393, 1, IRET
+32394, 41, CPU burst
+32435, 1, switch to kernel mode
+32436, 30, context saved
+32466, 1, find vector 4 in memory position 0x0008
+32467, 1, load address 0X0292 into the PC
+32468, 40, call device driver
+32508, 40, call device driver
+32548, 40, call device driver
+32588, 40, call device driver
+32628, 40, call device driver
+32668, 40, call device driver
+32708, 10, call device driver
+32718, 1, IRET
+32719, 48, CPU burst
+32767, 1, switch to kernel mode
+32768, 30, context saved
+32798, 1, find vector 4 in memory position 0x0008
+32799, 1, load address 0X0292 into the PC
+32800, 40, Store information in memory
+32840, 40, Store information in memory
+32880, 40, Store information in memory
+32920, 40, Store information in memory
+32960, 40, Store information in memory
+33000, 40, Store information in memory
+33040, 10, Store information in memory
+33050, 1, IRET
+33051, 63, CPU burst
