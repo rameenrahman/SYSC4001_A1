@@ -22,6 +22,7 @@ int main(int argc, char** argv) {
 
     int ms = 0;
     constexpr int SAVE_TIME = 10;
+    constexpr int ISR_TIME = 40;
 
     /******************************************************************/
 
@@ -44,8 +45,8 @@ int main(int argc, char** argv) {
             int time_left = delays[device];
             while (time_left > 0){
                 int time_interval;
-                if (time_left >= 40){
-                    time_interval = 40;
+                if (time_left >= ISR_TIME){
+                    time_interval = ISR_TIME;
                 }
                 else {
                     time_interval = time_left;
@@ -67,8 +68,8 @@ int main(int argc, char** argv) {
             int time_left = delays[device];
             while (time_left > 0){
                 int time_interval;
-                if (time_left >= 40){
-                    time_interval = 40;
+                if (time_left >= ISR_TIME){
+                    time_interval = ISR_TIME;
                 }
                 else {
                     time_interval = time_left;
