@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
     /******************ADD YOUR VARIABLES HERE*************************/
 
     int ms = 0;
-
+    constexpr int SAVE_TIME = 10;
 
     /******************************************************************/
 
@@ -30,9 +30,11 @@ int main(int argc, char** argv) {
         auto [activity, duration_intr] = parse_trace(trace);
 
         /******************ADD YOUR SIMULATION CODE HERE*************************/
-
+        if (activity == "CPU"){
+            execution += std::to_string(ms) + ", " + std::to_string(duration_intr) + ", CPU burst\n";
+            ms += duration_intr;
+        }
         
-
 
         /************************************************************************/
 
