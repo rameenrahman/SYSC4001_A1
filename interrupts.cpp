@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
 
     int ms = 0;
     constexpr int SAVE_TIME = 10;
-    constexpr int ISR_TIME = 40;
+    constexpr int ISR_TIME = 160;
 
     /******************************************************************/
 
