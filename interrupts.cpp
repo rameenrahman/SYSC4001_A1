@@ -2,8 +2,8 @@
  *
  * @file interrupts.cpp
  * @author Sasisekhar Govind
- * @Lindsay Xu (made correct, working code, stored in main)
- * @Rameen Rahman (made incorrect code, therefore stored in branch)
+ * @author Lindsay Xu (made correct, working code, stored in main)
+ * @author Rameen Rahman (made incorrect code, therefore stored in branch)
  */
 
 
