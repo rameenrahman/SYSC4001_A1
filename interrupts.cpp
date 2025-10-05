@@ -59,10 +59,20 @@ int main(int argc, char** argv) {
             execution += ISR_execution;
             time_count = current_time;
 
-
-            execution += time_count + ", " + EXECUTE_ISR + ", " + "call device driver\n";
-            time_count += EXECUTE_ISR;
-
+            ISR_delay = delays[duration_intr];
+            
+            while(ISR_delay != 0){
+                if(ISR_delay >= EXECUTE_ISR){
+                    execution += time_count + ", " + EXECUTE_ISR + ", " + "call device driver\n";
+                    time_count += EXECUTE_ISR;
+                    ISR_delay -= EXECUTE_ISR;
+                }
+                else{
+                    execution += time_count + ", " + ISR_delay + ", " + "call device driver\n";
+                    time_count += ISR_delay;
+                    ISR_delay = 0;
+                }
+            }
 
             execution += time_count + ", " + EXECUTE_IRET + ", " + "IRET\n";
             time_count += EXECUTE_IRET;
@@ -71,8 +81,19 @@ int main(int argc, char** argv) {
 
         else if (activity == "END_IO"){
             ISR_delay = delays[duration_intr];
-            execution += time_count + ", " + ISR_delay + ", " + "end of I/O " + duration_intr + ": interrupt\n";
-            time_count += ISR_delay;
+            
+            while(ISR_delay != 0){
+                if(ISR_delay >= EXECUTE_ISR){
+                    execution += time_count + ", " + EXECUTE_ISR + ", " + "store information in memory\n";
+                    time_count += EXECUTE_ISR;
+                    ISR_delay -= EXECUTE_ISR;
+                }
+                else{
+                    execution += time_count + ", " + ISR_delay + ", " + "store information in memory\n";
+                    time_count += ISR_delay;
+                    ISR_delay = 0;
+                }
+            }
            
         }
        
