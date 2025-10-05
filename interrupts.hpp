@@ -28,6 +28,11 @@
  * @return a vector of strings (the parsed vector table)
  * 
  */
+
+//argc is the number of arguments entered in command line at start 
+//argv is an array of pointers to array of char, representing each argument
+//argv[0]=program name, argv[1] = argument 1, argv[2] = argument 2...
+//function returns 'vectors',string array of vector?, and delay (vector int?)
 std::tuple<std::vector<std::string>, std::vector<int>> parse_args(int argc, char** argv) {
     if(argc != 4) {
         std::cout << "ERROR!\nExpected 2 argument, received " << argc - 1 << std::endl;
@@ -101,6 +106,8 @@ std::tuple<std::string, int> parse_trace(std::string trace) {
 }
 
 //Default interrupt boilerplate
+//switches to kernel mode, finds vector(ISR?) from vector table?, returns execution (string) and time taken (int)
+//creates exectution string with each action and keeps track of total time taken
 std::pair<std::string, int> intr_boilerplate(int current_time, int intr_num, int context_save_time, std::vector<std::string> vectors) {
 
     std::string execution = "";
@@ -125,7 +132,7 @@ std::pair<std::string, int> intr_boilerplate(int current_time, int intr_num, int
     return std::make_pair(execution, current_time);
 }
 
-
+//open output file, write execution in output file, close output file
 void write_output(std::string execution) {
     std::ofstream output_file("execution.txt");
 
